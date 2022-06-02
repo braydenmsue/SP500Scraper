@@ -1,4 +1,5 @@
 import csv
+
 file = open("stock_data.csv")
 csvreader = csv.reader(file)
 header = next(csvreader)
