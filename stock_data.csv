@@ -1,51 +1,492 @@
 Date & Time,Company Name,Percent Change
-04:00 PM 01.06.2022,3M,-2.53%
-04:00 PM 01.06.2022,A.O. Smith,0.50%
-04:00 PM 01.06.2022,Abbott Laboratories,-2.07%
-04:00 PM 01.06.2022,AbbVie,-0.88%
-04:00 PM 01.06.2022,ABIOMED,-3.16%
-04:00 PM 01.06.2022,Accenture,-0.02%
-04:00 PM 01.06.2022,Activision Blizzard,-0.60%
-04:00 PM 01.06.2022,Adobe,0.40%
-04:00 PM 01.06.2022,Advance Auto Parts,-1.20%
-04:00 PM 01.06.2022,AES,-0.77%
-04:00 PM 01.06.2022,Aflac,-1.07%
-04:00 PM 01.06.2022,Agilent Technologies,-3.42%
-04:00 PM 01.06.2022,Air Products and Chemicals,-1.21%
-04:00 PM 01.06.2022,Akamai,0.09%
-04:00 PM 01.06.2022,Alaska Air Group,-3.63%
-04:00 PM 01.06.2022,Albemarle,-7.88%
-04:00 PM 01.06.2022,Alexandria Real Estate Equities,-1.27%
-04:00 PM 01.06.2022,Align Technology,-4.49%
-04:00 PM 01.06.2022,Allegion,0.03%
-04:00 PM 01.06.2022,Alliant Energy,-0.99%
-04:00 PM 01.06.2022,Allstate,-1.21%
-04:00 PM 01.06.2022,Alphabet A,0.11%
-04:00 PM 01.06.2022,Alphabet C,0.09%
-04:00 PM 01.06.2022,Altria,-0.17%
-04:00 PM 01.06.2022,Amazon,1.23%
-04:00 PM 01.06.2022,Amcor,0.73%
-04:00 PM 01.06.2022,AMD,-0.63%
-04:00 PM 01.06.2022,Ameren,-0.94%
-04:00 PM 01.06.2022,American Airlines,-3.25%
-04:00 PM 01.06.2022,American Electric Power,0.01%
-04:00 PM 01.06.2022,American Express,-1.86%
-04:00 PM 01.06.2022,American International Group,-0.77%
-04:00 PM 01.06.2022,American Tower,-1.39%
-04:00 PM 01.06.2022,American Water Works,0.33%
-04:00 PM 01.06.2022,Ameriprise Financial,-2.04%
-04:00 PM 01.06.2022,AmerisourceBergen,-3.12%
-04:00 PM 01.06.2022,Ametek,-1.00%
-04:00 PM 01.06.2022,Amgen,-1.29%
-04:00 PM 01.06.2022,Amphenol,-2.24%
-04:00 PM 01.06.2022,Analog Devices,-2.16%
-04:00 PM 01.06.2022,ANSYS,-2.09%
-04:00 PM 01.06.2022,Anthem,-2.14%
-04:00 PM 01.06.2022,Aon,-1.95%
-04:00 PM 01.06.2022,APA Corporation Registered Shs,1.30%
-04:00 PM 01.06.2022,Apple,-0.09%
-04:00 PM 01.06.2022,Applied Materials,-2.41%
-04:00 PM 01.06.2022,Aptiv,1.04%
-04:00 PM 01.06.2022,Archer Daniels Midland,-4.54%
-04:00 PM 01.06.2022,Arista Networks,-0.27%
-04:00 PM 01.06.2022,Arthur J. Gallagher,-0.85%
+11:07 AM 02.06.2022,3M,0.02%
+11:06 AM 02.06.2022,A.O. Smith,1.84%
+11:08 AM 02.06.2022,Abbott Laboratories,-0.04%
+11:08 AM 02.06.2022,AbbVie,-1.16%
+11:06 AM 02.06.2022,ABIOMED,3.80%
+11:07 AM 02.06.2022,Accenture,1.29%
+11:08 AM 02.06.2022,Activision Blizzard,0.62%
+11:07 AM 02.06.2022,Adobe,1.97%
+11:07 AM 02.06.2022,Advance Auto Parts,0.68%
+11:07 AM 02.06.2022,AES,0.18%
+11:07 AM 02.06.2022,Aflac,-0.53%
+11:07 AM 02.06.2022,Agilent Technologies,2.95%
+11:07 AM 02.06.2022,Air Products and Chemicals,1.88%
+11:07 AM 02.06.2022,Akamai,0.46%
+11:07 AM 02.06.2022,Alaska Air Group,0.63%
+11:07 AM 02.06.2022,Albemarle,3.09%
+11:07 AM 02.06.2022,Alexandria Real Estate Equities,-0.01%
+11:08 AM 02.06.2022,Align Technology,3.58%
+11:07 AM 02.06.2022,Allegion,0.57%
+11:07 AM 02.06.2022,Alliant Energy,-1.77%
+11:07 AM 02.06.2022,Allstate,-1.11%
+11:08 AM 02.06.2022,Alphabet A,1.24%
+11:07 AM 02.06.2022,Alphabet C,1.27%
+11:07 AM 02.06.2022,Altria,-1.39%
+11:07 AM 02.06.2022,Amazon,0.17%
+11:07 AM 02.06.2022,Amcor,0.42%
+11:08 AM 02.06.2022,AMD,4.52%
+11:06 AM 02.06.2022,Ameren,-0.56%
+11:07 AM 02.06.2022,American Airlines,0.14%
+11:07 AM 02.06.2022,American Electric Power,-0.71%
+11:07 AM 02.06.2022,American Express,1.25%
+11:07 AM 02.06.2022,American International Group,-0.41%
+11:07 AM 02.06.2022,American Tower,0.49%
+11:05 AM 02.06.2022,American Water Works,0.14%
+11:03 AM 02.06.2022,Ameriprise Financial,0.45%
+11:07 AM 02.06.2022,AmerisourceBergen,-1.47%
+11:07 AM 02.06.2022,Ametek,0.66%
+11:08 AM 02.06.2022,Amgen,-2.91%
+11:07 AM 02.06.2022,Amphenol,1.46%
+11:08 AM 02.06.2022,Analog Devices,0.79%
+11:07 AM 02.06.2022,ANSYS,2.62%
+11:08 AM 02.06.2022,Anthem,-1.71%
+11:07 AM 02.06.2022,Aon,0.99%
+11:08 AM 02.06.2022,APA Corporation Registered Shs,0.09%
+11:08 AM 02.06.2022,Apple,-0.05%
+11:08 AM 02.06.2022,Applied Materials,0.02%
+11:07 AM 02.06.2022,Aptiv,1.34%
+11:07 AM 02.06.2022,Archer Daniels Midland,1.67%
+11:07 AM 02.06.2022,Arista Networks,1.59%
+11:07 AM 02.06.2022,Arthur J. Gallagher,0.16%
+11:08 AM 02.06.2022,Assurant,-0.44%
+11:08 AM 02.06.2022,AT&T,-0.54%
+11:08 AM 02.06.2022,Atmos Energy,-0.98%
+11:08 AM 02.06.2022,Autodesk,1.58%
+11:08 AM 02.06.2022,Automatic Data Processing,0.23%
+10:57 AM 02.06.2022,AutoZone,-0.85%
+11:07 AM 02.06.2022,AvalonBay Communities,-0.35%
+11:07 AM 02.06.2022,Avery Dennison,0.88%
+11:08 AM 02.06.2022,Baker Hughes,-0.84%
+11:08 AM 02.06.2022,Ball,0.83%
+11:08 AM 02.06.2022,Bank of America,-0.86%
+11:08 AM 02.06.2022,Bank of New York Mellon,0.47%
+11:08 AM 02.06.2022,Bath & Body Works,-1.31%
+11:08 AM 02.06.2022,Baxter International,-1.40%
+11:08 AM 02.06.2022,"Becton, Dickinson",-0.13%
+11:08 AM 02.06.2022,Berkshire Hathaway,-0.47%
+11:08 AM 02.06.2022,Best Buy,-0.40%
+11:08 AM 02.06.2022,Biogen,-1.77%
+11:03 AM 02.06.2022,Bio-Rad Laboratories,2.61%
+11:04 AM 02.06.2022,Bio-Techne,1.96%
+11:08 AM 02.06.2022,BlackRock,1.23%
+11:08 AM 02.06.2022,Boeing,5.30%
+11:07 AM 02.06.2022,Booking Holdings,1.77%
+11:08 AM 02.06.2022,BorgWarner,0.62%
+11:08 AM 02.06.2022,Boston Properties,-0.96%
+11:08 AM 02.06.2022,Boston Scientific,0.18%
+11:08 AM 02.06.2022,Bristol-Myers Squibb,-1.07%
+11:08 AM 02.06.2022,Broadcom,-0.30%
+11:08 AM 02.06.2022,Broadridge Financial Solutions,0.30%
+11:08 AM 02.06.2022,Brown-Forman b,-0.69%
+11:08 AM 02.06.2022,C.H. Robinson Worldwide,-0.06%
+11:08 AM 02.06.2022,Cadence Design Systems,3.15%
+11:08 AM 02.06.2022,Caesars Entertainment,3.17%
+11:08 AM 02.06.2022,Campbell Soup,-2.57%
+11:08 AM 02.06.2022,Capital One Financial,0.26%
+11:08 AM 02.06.2022,Cardinal Health,-1.66%
+11:08 AM 02.06.2022,CarMax,0.40%
+11:08 AM 02.06.2022,Carnival,1.45%
+11:08 AM 02.06.2022,Carrier Global Corporation Registered Shs When Issued,1.26%
+11:08 AM 02.06.2022,Catalent,3.35%
+11:08 AM 02.06.2022,Caterpillar,0.90%
+11:08 AM 02.06.2022,CBRE Grou a,0.99%
+11:08 AM 02.06.2022,CDW,0.41%
+11:04 AM 02.06.2022,Celanese,0.96%
+11:08 AM 02.06.2022,Centene,0.24%
+11:08 AM 02.06.2022,CenterPoint Energy,-0.61%
+11:12 AM 02.06.2022,Cabot Oil & Gas,0.34%
+11:11 AM 02.06.2022,Cerner,0.29%
+11:12 AM 02.06.2022,CF Industries Holdings,1.16%
+11:12 AM 02.06.2022,Charles River Laboratories International,2.76%
+11:12 AM 02.06.2022,Charles Schwab,0.83%
+11:12 AM 02.06.2022,Charte a,-0.07%
+11:12 AM 02.06.2022,Chevron,-0.47%
+11:11 AM 02.06.2022,Chipotle Mexican Grill,0.96%
+11:12 AM 02.06.2022,Chubb,0.47%
+11:12 AM 02.06.2022,Church & Dwight,0.06%
+11:12 AM 02.06.2022,Cigna,-1.21%
+11:12 AM 02.06.2022,Cincinnati Financial,-0.21%
+11:11 AM 02.06.2022,Cintas,1.04%
+11:12 AM 02.06.2022,Cisco,0.14%
+11:12 AM 02.06.2022,Citigroup,-0.47%
+11:12 AM 02.06.2022,Citizens Financial Group,1.50%
+11:12 AM 02.06.2022,Citrix Systems,0.29%
+11:12 AM 02.06.2022,Clorox,-1.35%
+11:12 AM 02.06.2022,CME Grou a,1.89%
+11:12 AM 02.06.2022,CMS Energy,-0.44%
+11:12 AM 02.06.2022,Coca-Cola,-0.18%
+11:12 AM 02.06.2022,Cognizant,-0.04%
+11:12 AM 02.06.2022,Colgate-Palmolive,0.04%
+11:12 AM 02.06.2022,Comcast,-0.97%
+11:12 AM 02.06.2022,Comerica,1.13%
+11:12 AM 02.06.2022,ConAgra Foods,-2.52%
+11:12 AM 02.06.2022,ConocoPhillips,-0.54%
+11:12 AM 02.06.2022,Consolidated Edison,-1.15%
+11:12 AM 02.06.2022,Constellation Brand a,-0.94%
+11:12 AM 02.06.2022,Cooper Cos,0.61%
+11:12 AM 02.06.2022,Copart,2.71%
+11:12 AM 02.06.2022,Corning,0.96%
+11:12 AM 02.06.2022,Corteva,0.34%
+11:12 AM 02.06.2022,Costco Wholesale,2.36%
+11:12 AM 02.06.2022,Crown Castle,-2.34%
+11:12 AM 02.06.2022,CSX,0.52%
+11:12 AM 02.06.2022,Cummins,1.01%
+11:12 AM 02.06.2022,CVS Health,-0.63%
+11:12 AM 02.06.2022,D.R. Horton,0.47%
+11:12 AM 02.06.2022,Danaher,2.52%
+11:12 AM 02.06.2022,Darden Restaurants,1.35%
+11:12 AM 02.06.2022,DaVita HealthCare Partners,-0.01%
+11:12 AM 02.06.2022,Deere,1.40%
+11:12 AM 02.06.2022,Delta Air Lines,0.05%
+11:12 AM 02.06.2022,DENTSPLY SIRONA,5.56%
+11:12 AM 02.06.2022,Devon Energy,0.17%
+11:12 AM 02.06.2022,DexCom,5.13%
+11:12 AM 02.06.2022,Diamondback Energy,0.65%
+11:12 AM 02.06.2022,Digital Realty Trust,-0.53%
+11:11 AM 02.06.2022,Discover Financial Services,0.81%
+11:12 AM 02.06.2022,Dish Network,-0.73%
+11:12 AM 02.06.2022,Dollar General Corporation,0.91%
+11:12 AM 02.06.2022,Dollar Tree,-1.06%
+11:12 AM 02.06.2022,Dominion Energy,-1.57%
+11:12 AM 02.06.2022,Domino's Pizza,2.21%
+11:12 AM 02.06.2022,Dover,0.59%
+11:12 AM 02.06.2022,Dow,-1.00%
+11:12 AM 02.06.2022,DTE Energy,-0.78%
+11:12 AM 02.06.2022,Duke Energy,-0.65%
+11:12 AM 02.06.2022,Duke Realty,0.23%
+11:12 AM 02.06.2022,DuPont de Nemours,0.90%
+11:12 AM 02.06.2022,DXC Technology,0.38%
+11:12 AM 02.06.2022,Eastman Chemical Company,0.99%
+11:12 AM 02.06.2022,Eaton Corporation,0.83%
+11:12 AM 02.06.2022,eBay,0.30%
+11:12 AM 02.06.2022,Ecolab,4.29%
+11:12 AM 02.06.2022,Edison International,-0.36%
+11:12 AM 02.06.2022,Edwards Lifesciences,1.57%
+11:12 AM 02.06.2022,Electronic Arts,-0.97%
+11:12 AM 02.06.2022,Eli Lilly and,-3.51%
+11:12 AM 02.06.2022,Emerson Electric,0.39%
+11:12 AM 02.06.2022,Enphase Energy,7.71%
+11:12 AM 02.06.2022,Entergy,-0.84%
+11:12 AM 02.06.2022,EOG Resources,-0.29%
+11:12 AM 02.06.2022,Equifax,1.62%
+11:11 AM 02.06.2022,Equinix,0.44%
+11:12 AM 02.06.2022,Equity Residential,0.03%
+11:10 AM 02.06.2022,Essex Property Trust,-0.50%
+11:12 AM 02.06.2022,Estée Lauder Companies,3.06%
+11:12 AM 02.06.2022,Etsy,6.26%
+11:08 AM 02.06.2022,Everest Reinsurance Group,-0.09%
+11:12 AM 02.06.2022,Evergy,-0.72%
+11:12 AM 02.06.2022,Eversource Energy,-0.94%
+11:12 AM 02.06.2022,Exelon,-0.73%
+11:12 AM 02.06.2022,Expedia,2.92%
+11:12 AM 02.06.2022,Expeditors International of Washington,-0.30%
+11:12 AM 02.06.2022,Extra Space Storage,-0.41%
+11:12 AM 02.06.2022,ExxonMobil,-0.02%
+11:11 AM 02.06.2022,F5 Networks,1.74%
+11:12 AM 02.06.2022,Fastenal,1.06%
+11:12 AM 02.06.2022,FedEx,0.74%
+11:12 AM 02.06.2022,Fidelity National Information Services,0.59%
+11:12 AM 02.06.2022,Fifth Third Bancorp,0.71%
+11:12 AM 02.06.2022,First Republic Bank,0.42%
+11:12 AM 02.06.2022,FirstEnergy,-1.65%
+11:12 AM 02.06.2022,Fiserv,0.09%
+11:09 AM 02.06.2022,FleetCor Technologies,0.53%
+11:09 AM 02.06.2022,FMC,0.90%
+11:09 AM 02.06.2022,Ford Motor,1.96%
+11:09 AM 02.06.2022,Fortinet,2.55%
+11:09 AM 02.06.2022,Fortive,0.96%
+11:09 AM 02.06.2022,Fortune Brands Home & Security,1.99%
+11:09 AM 02.06.2022,Fox,-1.03%
+11:09 AM 02.06.2022,Fox,-0.87%
+11:09 AM 02.06.2022,Franklin Resources,0.21%
+11:09 AM 02.06.2022,Freeport-McMoRan,4.95%
+11:09 AM 02.06.2022,Garmin,1.26%
+11:09 AM 02.06.2022,Gartner,1.97%
+11:09 AM 02.06.2022,Generac Holdings,7.16%
+11:09 AM 02.06.2022,General Dynamics,-0.29%
+11:09 AM 02.06.2022,General Electric,-0.09%
+11:08 AM 02.06.2022,General Mills,-1.88%
+11:09 AM 02.06.2022,General Motors,1.64%
+11:09 AM 02.06.2022,Genuine Parts,-0.50%
+11:09 AM 02.06.2022,Gilead Sciences,-3.27%
+11:09 AM 02.06.2022,Global Payments,1.26%
+11:04 AM 02.06.2022,Globe Life,-0.14%
+11:08 AM 02.06.2022,Goldman Sachs,0.08%
+11:09 AM 02.06.2022,Halliburton,-0.85%
+11:09 AM 02.06.2022,Hartford Financial Services Group,0.01%
+11:09 AM 02.06.2022,Hasbro,0.41%
+11:08 AM 02.06.2022,HCA Holdings,0.39%
+11:09 AM 02.06.2022,Healthpeak Properties,-1.57%
+11:09 AM 02.06.2022,Henry Schein,0.03%
+11:09 AM 02.06.2022,Hess,-0.35%
+11:09 AM 02.06.2022,Hewlett Packard Enterprise,-7.28%
+11:09 AM 02.06.2022,Hilton Worldwide Holdings,0.80%
+11:09 AM 02.06.2022,Hologic,0.27%
+11:09 AM 02.06.2022,Home Depot,0.12%
+11:09 AM 02.06.2022,Honeywell,1.18%
+11:09 AM 02.06.2022,Hormel Foods,-5.91%
+11:09 AM 02.06.2022,Host Hotels & Resorts,-0.81%
+11:09 AM 02.06.2022,Howmet Aerospace,0.59%
+11:09 AM 02.06.2022,HP,-2.04%
+11:09 AM 02.06.2022,Humana,-0.54%
+11:09 AM 02.06.2022,Huntington Bancstocks,0.70%
+11:08 AM 02.06.2022,Huntington Ingalls Industries,-0.83%
+11:09 AM 02.06.2022,IBM,-0.28%
+11:07 AM 02.06.2022,IDEX,1.33%
+11:09 AM 02.06.2022,IDEXX Laboratories,1.97%
+11:09 AM 02.06.2022,Illinois Tool Works,0.25%
+11:09 AM 02.06.2022,Illumina,1.98%
+11:09 AM 02.06.2022,Incyte,-2.35%
+11:09 AM 02.06.2022,Ingersoll Rand,1.60%
+11:09 AM 02.06.2022,Intel,0.42%
+11:09 AM 02.06.2022,The Hershey,-1.61%
+11:09 AM 02.06.2022,FleetCor Technologies,0.53%
+11:09 AM 02.06.2022,FMC,0.90%
+11:09 AM 02.06.2022,Ford Motor,1.96%
+11:09 AM 02.06.2022,Fortinet,2.55%
+11:09 AM 02.06.2022,Fortive,0.96%
+11:09 AM 02.06.2022,Fortune Brands Home & Security,1.99%
+11:09 AM 02.06.2022,Fox,-1.03%
+11:09 AM 02.06.2022,Fox,-0.87%
+11:09 AM 02.06.2022,Franklin Resources,0.21%
+11:09 AM 02.06.2022,Freeport-McMoRan,4.95%
+11:09 AM 02.06.2022,Garmin,1.26%
+11:09 AM 02.06.2022,Gartner,1.97%
+11:09 AM 02.06.2022,Generac Holdings,7.16%
+11:09 AM 02.06.2022,General Dynamics,-0.29%
+11:09 AM 02.06.2022,General Electric,-0.09%
+11:08 AM 02.06.2022,General Mills,-1.88%
+11:09 AM 02.06.2022,General Motors,1.64%
+11:09 AM 02.06.2022,Genuine Parts,-0.50%
+11:09 AM 02.06.2022,Gilead Sciences,-3.27%
+11:09 AM 02.06.2022,Global Payments,1.26%
+11:04 AM 02.06.2022,Globe Life,-0.14%
+11:08 AM 02.06.2022,Goldman Sachs,0.08%
+11:09 AM 02.06.2022,Halliburton,-0.85%
+11:09 AM 02.06.2022,Hartford Financial Services Group,0.01%
+11:09 AM 02.06.2022,Hasbro,0.41%
+11:08 AM 02.06.2022,HCA Holdings,0.39%
+11:09 AM 02.06.2022,Healthpeak Properties,-1.57%
+11:09 AM 02.06.2022,Henry Schein,0.03%
+11:09 AM 02.06.2022,Hess,-0.35%
+11:09 AM 02.06.2022,Hewlett Packard Enterprise,-7.28%
+11:09 AM 02.06.2022,Hilton Worldwide Holdings,0.80%
+11:09 AM 02.06.2022,Hologic,0.27%
+11:09 AM 02.06.2022,Home Depot,0.12%
+11:09 AM 02.06.2022,Honeywell,1.18%
+11:09 AM 02.06.2022,Hormel Foods,-5.91%
+11:09 AM 02.06.2022,Host Hotels & Resorts,-0.81%
+11:09 AM 02.06.2022,Howmet Aerospace,0.59%
+11:09 AM 02.06.2022,HP,-2.04%
+11:09 AM 02.06.2022,Humana,-0.54%
+11:09 AM 02.06.2022,Huntington Bancstocks,0.70%
+11:08 AM 02.06.2022,Huntington Ingalls Industries,-0.83%
+11:09 AM 02.06.2022,IBM,-0.28%
+11:07 AM 02.06.2022,IDEX,1.33%
+11:09 AM 02.06.2022,IDEXX Laboratories,1.97%
+11:09 AM 02.06.2022,Illinois Tool Works,0.25%
+11:09 AM 02.06.2022,Illumina,1.98%
+11:09 AM 02.06.2022,Incyte,-2.35%
+11:09 AM 02.06.2022,Ingersoll Rand,1.60%
+11:09 AM 02.06.2022,Intel,0.42%
+11:09 AM 02.06.2022,The Hershey,-1.61%
+11:13 AM 02.06.2022,MasterCard,1.15%
+11:12 AM 02.06.2022,McCormick,-1.15%
+11:13 AM 02.06.2022,McDonald's,-0.83%
+11:13 AM 02.06.2022,McKesson,-1.92%
+11:13 AM 02.06.2022,Medtronic,0.47%
+11:13 AM 02.06.2022,Merck,-1.83%
+11:13 AM 02.06.2022,Meta Platforms,3.16%
+11:13 AM 02.06.2022,MetLife,-0.19%
+11:03 AM 02.06.2022,Mettler-Toledo International,2.54%
+11:13 AM 02.06.2022,MGM Resorts International,1.90%
+11:13 AM 02.06.2022,Microchip Technology,1.46%
+11:13 AM 02.06.2022,Micron Technology,1.20%
+11:13 AM 02.06.2022,Microsoft,-1.43%
+11:13 AM 02.06.2022,Mid-America Apartment Communities,-0.62%
+11:13 AM 02.06.2022,Moderna,-5.67%
+11:10 AM 02.06.2022,Mohawk Industries,0.10%
+11:12 AM 02.06.2022,Molina Healthcare,-0.36%
+11:13 AM 02.06.2022,Molson Coors Brewing Company,-2.35%
+11:13 AM 02.06.2022,Mondelez,-1.14%
+11:12 AM 02.06.2022,Monolithic Power Systems,2.88%
+11:13 AM 02.06.2022,Monster Beverage,0.22%
+11:12 AM 02.06.2022,Moody's,2.57%
+11:13 AM 02.06.2022,Morgan Stanley,-0.41%
+11:10 AM 02.06.2022,Motorola Solutions,0.48%
+11:13 AM 02.06.2022,MSCI,2.59%
+11:13 AM 02.06.2022,Nasdaq,0.58%
+11:13 AM 02.06.2022,NetApp,0.74%
+11:13 AM 02.06.2022,Netflix,3.49%
+11:12 AM 02.06.2022,Newell Brands,-0.67%
+11:13 AM 02.06.2022,Newmont Mining,2.30%
+11:13 AM 02.06.2022,News b,3.68%
+11:13 AM 02.06.2022,News,2.93%
+11:13 AM 02.06.2022,NextEra Energy,1.21%
+11:13 AM 02.06.2022,Nielsen Holdings,0.71%
+11:13 AM 02.06.2022,Nike,2.00%
+11:13 AM 02.06.2022,Nisource,-0.64%
+11:12 AM 02.06.2022,Norfolk Southern,0.97%
+11:10 AM 02.06.2022,Northern Trust,1.10%
+11:12 AM 02.06.2022,Northrop Grumman,-1.64%
+11:13 AM 02.06.2022,NortonLifeLock,0.84%
+11:13 AM 02.06.2022,Norwegian Cruise Line,2.29%
+11:13 AM 02.06.2022,NRG Energy,-0.20%
+11:13 AM 02.06.2022,Nucor,1.09%
+11:13 AM 02.06.2022,NVIDIA,4.99%
+11:12 AM 02.06.2022,NVR,0.21%
+11:13 AM 02.06.2022,NXP Semiconductors,1.13%
+11:12 AM 02.06.2022,O Reilly Automotive,0.04%
+11:13 AM 02.06.2022,The Mosaic,3.14%
+11:10 AM 02.06.2022,Occidental Petroleum,-0.35%
+11:07 AM 02.06.2022,Old Dominion Freight Line,2.98%
+11:10 AM 02.06.2022,Omnicom Group,0.58%
+11:10 AM 02.06.2022,ONEOK,0.00%
+11:09 AM 02.06.2022,Oracle,0.05%
+11:09 AM 02.06.2022,Organon & Company,-2.15%
+11:10 AM 02.06.2022,Otis Worldwide Corporation Registered Shs When Issued,0.34%
+11:10 AM 02.06.2022,Paccar,-0.05%
+11:10 AM 02.06.2022,Packaging,0.09%
+11:10 AM 02.06.2022,Parker Hannifin,0.90%
+11:09 AM 02.06.2022,Paychex,1.10%
+11:07 AM 02.06.2022,Paycom Software,5.65%
+11:10 AM 02.06.2022,PayPal,2.90%
+11:10 AM 02.06.2022,Penn National Gaming,4.86%
+11:10 AM 02.06.2022,Pentair,1.91%
+11:10 AM 02.06.2022,PepsiCo,-1.47%
+11:09 AM 02.06.2022,PerkinElmer,1.94%
+11:10 AM 02.06.2022,Pfizer,-1.69%
+11:09 AM 02.06.2022,Philip Morris,-1.05%
+11:10 AM 02.06.2022,Phillips 66,0.07%
+11:08 AM 02.06.2022,Pinnacle West Capital,-0.49%
+11:10 AM 02.06.2022,Pioneer Natural Resources,-0.58%
+11:09 AM 02.06.2022,PNC Financial Services Group,0.51%
+11:09 AM 02.06.2022,Pool,2.79%
+11:09 AM 02.06.2022,PPG Industries,1.48%
+11:09 AM 02.06.2022,PPL,-1.02%
+11:09 AM 02.06.2022,Principal Financial Group,0.32%
+11:10 AM 02.06.2022,Procter & Gamble,-0.92%
+11:10 AM 02.06.2022,Progressive,0.02%
+11:09 AM 02.06.2022,Prologis,0.97%
+11:10 AM 02.06.2022,Prudential Financial,0.05%
+11:08 AM 02.06.2022,PTC,0.89%
+11:09 AM 02.06.2022,,-0.57%
+11:10 AM 02.06.2022,,-0.75%
+11:10 AM 02.06.2022,PulteGroup,-0.18%
+11:09 AM 02.06.2022,PVH,2.14%
+11:10 AM 02.06.2022,Qorvo,1.39%
+11:10 AM 02.06.2022,QUALCOMM,2.07%
+11:09 AM 02.06.2022,Quanta Services,1.75%
+11:09 AM 02.06.2022,Quest Diagnostics,-0.62%
+11:09 AM 02.06.2022,Ralph Lauren a,1.10%
+11:10 AM 02.06.2022,Raymond James Financial,0.30%
+11:10 AM 02.06.2022,Raytheon Technologies,-0.13%
+11:10 AM 02.06.2022,Realty Income,-0.10%
+11:09 AM 02.06.2022,Regency Centers,-0.27%
+11:08 AM 02.06.2022,Regeneron Pharmaceuticals,-5.23%
+11:10 AM 02.06.2022,Regions Financial,0.35%
+11:10 AM 02.06.2022,Republic Services,-0.21%
+11:08 AM 02.06.2022,ResMed,1.38%
+11:10 AM 02.06.2022,ViacomCBS,-3.35%
+11:11 AM 02.06.2022,Robert Half,2.51%
+11:11 AM 02.06.2022,Rockwell Automation,0.03%
+11:10 AM 02.06.2022,Rollins,-0.49%
+11:11 AM 02.06.2022,Roper Industries,0.92%
+11:11 AM 02.06.2022,Ross Stores,0.06%
+11:11 AM 02.06.2022,Royal Caribbean Cruises,2.21%
+11:11 AM 02.06.2022,S&P Global,2.38%
+11:11 AM 02.06.2022,Salesforce,3.24%
+11:11 AM 02.06.2022,SBA Communications REIT,-0.38%
+11:11 AM 02.06.2022,Schlumberger,-0.43%
+11:11 AM 02.06.2022,Seagate Technology Holdings,1.56%
+11:11 AM 02.06.2022,Sealed Air,0.49%
+11:10 AM 02.06.2022,Sempra Energy,-1.30%
+11:11 AM 02.06.2022,ServiceNow,4.86%
+11:11 AM 02.06.2022,Sherwin-Williams,0.80%
+11:11 AM 02.06.2022,Simon Property Group,-0.07%
+11:11 AM 02.06.2022,Skyworks Solutions,2.12%
+11:10 AM 02.06.2022,Snap-On,0.94%
+11:11 AM 02.06.2022,Southern,-0.92%
+11:11 AM 02.06.2022,Southwest Airlines,-0.36%
+11:11 AM 02.06.2022,Stanley Black & Decker,1.31%
+11:11 AM 02.06.2022,Starbucks,0.59%
+11:11 AM 02.06.2022,State Street,2.17%
+11:11 AM 02.06.2022,STERIS,0.78%
+11:11 AM 02.06.2022,Stryker,0.54%
+11:11 AM 02.06.2022,SVB Financial Group Shs,1.73%
+11:11 AM 02.06.2022,Synchrony Financial,0.42%
+11:11 AM 02.06.2022,Synopsys,3.51%
+11:11 AM 02.06.2022,Sysco,-0.01%
+11:11 AM 02.06.2022,T. Rowe Price Group,1.03%
+11:11 AM 02.06.2022,Take Two,1.04%
+11:11 AM 02.06.2022,Tapestry,1.71%
+11:11 AM 02.06.2022,Target,0.56%
+11:11 AM 02.06.2022,TE Connectivity,1.31%
+11:10 AM 02.06.2022,Teledyne Technologies,1.75%
+11:11 AM 02.06.2022,Teleflex,1.01%
+11:11 AM 02.06.2022,Teradyne,2.32%
+11:11 AM 02.06.2022,Tesla,4.74%
+11:11 AM 02.06.2022,Texas Instruments,-0.25%
+11:10 AM 02.06.2022,Textron,1.20%
+11:11 AM 02.06.2022,The Kraft Heinz Company,-6.36%
+11:11 AM 02.06.2022,Thermo Fisher Scientific,0.74%
+11:11 AM 02.06.2022,TJX Cos,1.22%
+11:11 AM 02.06.2022,T-Mobile US,0.30%
+11:11 AM 02.06.2022,Tractor Supply,1.71%
+11:11 AM 02.06.2022,Trane Technologies,1.29%
+11:10 AM 02.06.2022,TransDigm Group,1.28%
+11:11 AM 02.06.2022,Travelers,0.17%
+11:10 AM 02.06.2022,Grainger,0.69%
+11:10 AM 02.06.2022,Trimble Navigation,2.97%
+11:10 AM 02.06.2022,Truist Financial Corporation,0.79%
+11:10 AM 02.06.2022,Twitter,1.45%
+11:07 AM 02.06.2022,Tyler Technologies,2.56%
+11:10 AM 02.06.2022,Tyson Foods,-1.63%
+11:10 AM 02.06.2022,U.S. Bancorp,0.21%
+11:10 AM 02.06.2022,UDR,-0.29%
+11:10 AM 02.06.2022,Ulta Beauty,0.47%
+11:10 AM 02.06.2022,Under Armour,4.47%
+11:10 AM 02.06.2022,Under Armour,3.87%
+11:10 AM 02.06.2022,Union Pacific,0.81%
+11:10 AM 02.06.2022,United Airlines Holdings,-0.23%
+11:10 AM 02.06.2022,United Parcel Service,0.96%
+11:10 AM 02.06.2022,United Rentals,1.67%
+11:10 AM 02.06.2022,UnitedHealth,-1.25%
+11:10 AM 02.06.2022,Universal Health Services,-0.17%
+11:10 AM 02.06.2022,V.F,0.82%
+11:10 AM 02.06.2022,Valero Energy,0.82%
+11:10 AM 02.06.2022,Ventas,-1.10%
+11:10 AM 02.06.2022,VeriSign,2.79%
+11:09 AM 02.06.2022,Verisk Analytic a,1.42%
+11:10 AM 02.06.2022,Verizon,-0.89%
+11:10 AM 02.06.2022,Vertex Pharmaceuticals,-2.54%
+11:10 AM 02.06.2022,Viatris,-0.79%
+11:10 AM 02.06.2022,Visa,1.71%
+11:10 AM 02.06.2022,Vornado Realty Trust,-0.87%
+11:10 AM 02.06.2022,Vulcan Materials,0.71%
+11:10 AM 02.06.2022,W. R. Berkley,0.42%
+11:10 AM 02.06.2022,Wabtec,1.77%
+11:10 AM 02.06.2022,Walgreens Boots Alliance,-0.81%
+11:10 AM 02.06.2022,Walmart,0.30%
+11:10 AM 02.06.2022,Walt Disney,0.19%
+11:10 AM 02.06.2022,Waste Management,-0.72%
+11:09 AM 02.06.2022,Waters,2.24%
+11:10 AM 02.06.2022,WEC Energy Group,-0.88%
+11:10 AM 02.06.2022,Wells Fargo,-0.59%
+11:10 AM 02.06.2022,Welltower,-0.39%
+11:10 AM 02.06.2022,West Pharmaceutical Services,1.01%
+11:10 AM 02.06.2022,Western Digital,2.26%
+11:10 AM 02.06.2022,WestRock,1.00%
+11:10 AM 02.06.2022,Weyerhaeuser,0.18%
+11:10 AM 02.06.2022,Whirlpool,-0.86%
+11:10 AM 02.06.2022,Williams Companies,0.00%
+11:10 AM 02.06.2022,Willis Towers Watson,0.56%
+11:10 AM 02.06.2022,Wynn Resorts,2.24%
+11:10 AM 02.06.2022,Xcel Energy,-0.89%
+11:10 AM 02.06.2022,Xylem,1.28%
+11:10 AM 02.06.2022,YUM! Brands,-0.50%
+11:09 AM 02.06.2022,Zebra Technologies,2.26%
+11:09 AM 02.06.2022,Zimmer Biomet,0.30%
+11:09 AM 02.06.2022,Zions Bancorporation,0.88%
+11:09 AM 02.06.2022,Zoeti a,0.72%

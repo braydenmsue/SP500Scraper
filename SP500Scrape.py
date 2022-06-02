@@ -28,25 +28,36 @@ percentChange = []
 currentPage = 1
 
 while currentPage <= lastPage:
-    table = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//tbody[@class = 'table__tbody']")))
-    stocks = WebDriverWait(table, 10).until(EC.presence_of_all_elements_located((By.XPATH, './tr')))
+    print("Current Page: " + str(currentPage))
+
+    # If an alert pops up at the top of the screen (typically on page 5), close it
+    try:
+        closeButton = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.XPATH, "//div[@class = 'finWebpushCloseButton']")))
+        closeButton.click()
+    except:
+        pass
+
+    # Wait until all the necessary HTML has been loaded before creating a list of all the rows of stocks to scrape data from
+    table = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, "//tbody[@class = 'table__tbody']")))
+    stocks = WebDriverWait(table, 3).until(EC.presence_of_all_elements_located((By.XPATH, './tr')))
 
     for stock in stocks:
+        # Date and time normally separated by newline, replace to separate them by a space instead
         date.append(stock.find_element(By.XPATH, './td[5]').text.replace('\n', ' '))
         company.append(stock.find_element(By.XPATH, './td[1]').text)
+        # Separate dollar change from percent change by a space, then only keep the percent change value
         percentChange.append(stock.find_element(By.XPATH, './td[4]').text.replace('\n', ' ').split()[-1])
 
-    # Only scrape first page until pagination is fixed
-    currentPage = lastPage+1
+    # Generate XPath statement for each page button by number, necessary due to there being no general next page button
+    currentPage += 1
+    nextPageXPATH = '//a[@href = "?p=' + str(currentPage) + '"]'
 
-# No next button on this website, pagination is a WIP
-    # currentPage += 1
-    # nextPageXPATH = "//a[text()[contains(.,'" + str(currentPage) + "')]]"
-    # try:
-    #    nextPage = pagination.find_element(By.XPATH, nextPageXPATH)
-    #    nextPage.click()
-    # except:
-    #    pass
+    # Clicks appropriate page number, except prevents program from crashing if web scraper runs into issue
+    try:
+        nextPage = driver.find_element(By.XPATH, nextPageXPATH)
+        nextPage.click()
+    except:
+        pass
 
 
 # Create pandas dataframe from a dictionary
