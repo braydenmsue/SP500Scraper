@@ -18,17 +18,16 @@ driver.maximize_window()
 # Find last page number to determine amount of loops for pagination
 pagination = driver.find_element(By.XPATH, "//div[@class = 'finando_paging margin-top--small']")
 pages = pagination.find_elements(By.TAG_NAME, 'a')
-lastPage = int(pages[-2].text)
-print("last page = ", lastPage)
+lastPage = int(pages[-1].text)
 
 # initialise lists
 date = []
 company = []
 percentChange = []
+changeAverage = []
 currentPage = 1
 
 while currentPage <= lastPage:
-    print("Current Page: " + str(currentPage))
 
     # If an alert pops up at the top of the screen (typically on page 5), close it
     try:
@@ -59,10 +58,16 @@ while currentPage <= lastPage:
     except:
         pass
 
+driver.quit()
 
-# Create pandas dataframe from a dictionary
-df = pd.DataFrame({'Date & Time': date, 'Company Name': company, 'Percent Change': percentChange})
+df1 = pd.read_csv('stock_data.csv')
+if df1.empty:
+    final = pd.DataFrame({'Company Name': company, date[0]: percentChange})
+else:
+    df2 = pd.DataFrame({'Company Name': company, date[0]: percentChange})
+
+    final = pd.merge(df1, df2, on=['Company Name'])
 
 # save as .csv file
-df.to_csv('stock_data.csv', index=False)
+final.to_csv('stock_data.csv', index=False)
 
